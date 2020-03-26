@@ -226,7 +226,7 @@ control "k8s-8" do
 
   ref "OPA/Gatekeeper", url: "https://github.com/open-policy-agent/gatekeeper"
   ref "K-rail", url: "https://github.com/cruise-automation/k-rail"
-  ref "Kubernetes PodSecurityPolicy": url: "https://kubernetes.io/docs/concepts/policy/pod-security-policy/"
+  ref "Kubernetes PodSecurityPolicy", url: "https://kubernetes.io/docs/concepts/policy/pod-security-policy/"
   ref "GKE PodSecurityPolicy", url: "https://cloud.google.com/kubernetes-engine/docs/how-to/pod-security-policies"
   ref "GKE PodSecurityPolicy", url: "https://docs.aws.amazon.com/eks/latest/userguide/pod-security-policy.html"
   ref "AKS PodSecurityPolicy", url: "https://docs.microsoft.com/en-us/azure/aks/use-pod-security-policies"
